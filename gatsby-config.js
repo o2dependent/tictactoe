@@ -1,5 +1,3 @@
-const { default: colors } = require("./src/styles/colors")
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -23,8 +21,8 @@ module.exports = {
         name: `TicTacToe`,
         short_name: `TicTacToe`,
         start_url: `/`,
-        background_color: colors.dark,
-        theme_color: colors.dark,
+        background_color: "#120078",
+        theme_color: "#120078",
         display: `minimal-ui`,
         icon: `src/images/tictactoe.png`, // This path is relative to the root of the site.
       },
